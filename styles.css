@@ -57,10 +57,38 @@ ul {
   border-radius: 40px;
 }
 
-.clubList a {
+.clubList {
   text-decoration: none;
 }
 
 a:visited {
   color: black;
+}
+
+.modal{
+    display:none;
+}
+
+#club1-Modal:target{
+    display: flex;
+    justify-content: center;
+}
+
+.club-content{
+    background-color: lightblue;
+    width:600px;
+    position:relative;
+}
+
+.close-modal{
+    text-decoration: none;
+    position: absolute;
+    border-radius: 5px;
+    top:10px;
+    right: 10px;
+}
+
+.close-modal:hover{
+    background-color:white;
+    transition: 0.5s;
 }
