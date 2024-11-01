@@ -1,94 +1,83 @@
 body {
-  text-align: center;
-  margin: auto;
-  padding: auto;
-}
-
-header {
+  font-family: Times, serif;
+  background-color: white;
   display: flex;
   justify-content: center;
+  padding-top: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+.title-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.title-image{
+  width: 150px;
+  height: auto;
 }
 
 h1 {
-  text-align: center;
+  font-size: 100px;
+  color: black;
+  margin-bottom: 30px;
+  margin-right: 30px;
 }
 
-.logo {
-  height: 50px;
-  align-self: center;
-  margin-left: 10px;
-}
 
 .dropdown-menu {
-  margin: auto;
-  padding: auto;
-  align-self: center;
-  background-color: lightgrey;
-  height: 50px;
-  width: 500px;
+  width: 350px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  background-color: white;
+  color: #333;
+  appearance: none;
 }
 
-ul {
+/* Circle container styling */
+.circles {
   display: flex;
-  justify-content: center;
-  padding: 0;
-  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.clubList {
-  list-style-type: none;
-  background-color: grey;
-  border: 1px solid black;
-  width: 50px;
-  height: 50px;
-  margin-left: 10px;
-  border-radius: 25px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  transition: 0.5s;
-}
+/* Individual circle styling */
+/* .circle {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+} */
 
-.clubList:hover {
-  height: 70px;
-  width: 70px;
-  transition: 0.5s;
-  border-radius: 40px;
-}
-
-.clubList {
+/* Remove link underline */
+.circles a {
   text-decoration: none;
 }
 
-a:visited {
-  color: black;
+/* Individual circle styling */
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: gray; /* Fallback color if the image doesn't load */
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
 }
 
-.modal{
-    display:none;
-}
 
-#club1-Modal:target{
-    display: flex;
-    justify-content: center;
-}
-
-.club-content{
-    background-color: lightblue;
-    width:600px;
-    position:relative;
-}
-
-.close-modal{
-    text-decoration: none;
-    position: absolute;
-    border-radius: 5px;
-    top:10px;
-    right: 10px;
-}
-
-.close-modal:hover{
-    background-color:white;
-    transition: 0.5s;
-}

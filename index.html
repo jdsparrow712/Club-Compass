@@ -1,62 +1,47 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<!-- Michael Loff -->
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Club Compass</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Club Compass</h1>
-      <img
-        class="logo"
-        src="https://militaryalphabet.net/wp-content/uploads/2020/12/compass-north-838x1024.jpg"
-        alt="Logo-Image"
-      />
-    </header>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club Campus</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <div class="dropdown-menu"><h3>Drop Down Menu</h3></div>
+  <div class="container">
 
-    <ul>
-      <a class="clubList" href="#club1-Modal"><li>Chess Club</li></a>
-      <a class="clubList" href=""><li>SGA</li></a>
-      <a class="clubList" href=""><li>Ultimate Frisbee</li></a>
-      <a class="clubList" href=""><li>Alpha Phi Sorority</li></a>
-      <a class="clubList" href=""><li>Society of Women Engineers</li></a>
-      <a class="clubList" href=""><li>Anime Club</li></a>
-      <a class="clubList" href=""><li>Varsity Athletics</li></a>
-      <a class="clubList" href=""><li>Beta Theta Pi</li></a>
-      <a class="clubList" href=""><li>BluePrint</li></a>
-    </ul>
-
-    <div id="club1-Modal" class="modal">
-      <div class="club-content">
-        <a href="#" class="close-modal">X</a>
-        <h2>Club One Info</h2>
-        <p>
-          Club Description Lorem ipsum dolor sit amet consectetur, adipisicing
-          elit. Non nisi tenetur, ipsum eligendi,
-        </p>
-        <h3>Rating</h3>
-        <h2>☆☆☆☆☆</h2>
-      </div>
+    <div class="title-container">
+        <h1>Club Campus</h1>
+        <img src="https://militaryalphabet.net/wp-content/uploads/2020/12/compass-north-838x1024.jpg" alt="Compass" class="title-image">
     </div>
 
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
+    <select class="dropdown-menu">
+        <option value=""disabled selected>Search ...</option>
+        <option value="club1"> Chess Club</option>
+        <option value="club2"> SGA </option>
+        <option value="club3"> Ultimate Frisbee </option>
+        <option value="club4"> Alpha Phi Sorority </option>
+        <option value="club5"> Society of Women Engineers </option>
+        <option value="club6"> Anime Club </option>
+        <option value="club7"> Varsity Athletics </option>
+        <option value="club8"> Beta Theta Pi </option>
+        <option value="club9"> Blue Print </option>
+    </select>
 
-    <script src="" async defer></script>
-  </body>
+    <div class="circles">
+        <a href="chess.html" class="circle" style="background-image: url('images/chess.png');" title="Chess"></a>
+        <a href="sga.html" class="circle" style="background-image: url('images/sga.png');" title="SGA"></a>
+        <a href="ultimate_frisbee.html" class="circle" style="background-image: url('images/ultimate_frisbee.png');" title="Ultimate Frisbee"></a>
+        <a href="alpha_phi.html" class="circle" style="background-image: url('images/alpha_phi.png');" title="Alpha Phi Sorority"></a>
+        <a href="society_of_women_engineers.html" class="circle" style="background-image: url('images/swe.png');" title="Society of Women Engineers"></a>
+        <a href="anime_club.html" class="circle" style="background-image: url('images/anime_club.png');" title="Anime Club"></a>
+        <a href="varsity_athletics.html" class="circle" style="background-image: url('images/varsity_athletics.png');" title="Varsity Athletics"></a>
+        <a href="beta_theta_pi.html" class="circle" style="background-image: url('images/beta_theta_pi.png');" title="Beta Theta Pi"></a>
+        <a href="blueprint.html" class="circle" style="background-image: url('images/blueprint.png');" title="BluePrint"></a>
+    </div>
+      
+
+  </div>
+  
+</body>
 </html>
