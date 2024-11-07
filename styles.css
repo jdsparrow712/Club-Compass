@@ -53,16 +53,6 @@ h1 {
   padding: 0 20px;
 }
 
-/* Individual circle styling */
-/* .circle {
-  width: 150px;
-  height: 150px;
-  background-color: gray;
-  border-radius: 50%;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-} */
-
-/* Remove link underline */
 .circles a {
   text-decoration: none;
 }
